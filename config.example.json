@@ -1,0 +1,14 @@
+{
+  "api_key": "YOUR_PAGERDUTY_API_KEY",
+  "dry_run": true,
+  "cleanup_settings": {
+    "services": {
+      "enabled": true,
+      "name_starts_with": "SN:"
+    },
+    "escalation_policies": {
+      "enabled": true,
+      "name_starts_with": "SN:"
+    }
+  }
+}
